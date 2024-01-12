@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono&family=Josefin+Sans:wght@600&family=Jost:wght@700&family=Lexend+Deca&family=Montserrat:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 20px 120px;
+    position: absolute;
+}
+
+nav .logo p{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    float: left;
+    color:white;
+    text-transform: uppercase;
+    Letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav .logo p:hover{
+    color: #b7cee8;
+    transition: 1.5s;
+}
+
+nav ul{
+    float: right;
+    font-family: Montserrat;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: rgb(255, 251, 0);
+    transition: 1.5s;
+}
+
+.hero_img img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/*body*/
+
+.container1{
+    overflow: hidden;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 30px;
+    background-color: #3c78c0;
+}
+
+.picture img{
+    overflow: hidden;
+    animation: fadeIn 3s;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    width: 540px;
+    border-radius: 30px;
+    border: 5px solid #13273e;
+}
+  
+.title{
+    padding-left: 609px;
+    padding-top: 40px;
+    font-family: Montserrat;
+}
+
+.title h1{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #0f1f31;
+    animation: fadeIn 3s;;
+}
+
+
+.title p{
+    animation: fadeIn 3s;
+    color: white;
+    width: 740px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.pictures img{
+    animation: fadeIn 3s;
+    width: 350px;
+}
+
+.picture1 img{
+    position: absolute;
+    top: 350px;
+    left: 610px;
+    border-radius: 30px;
+    border: 5px solid #13273e;
+}
+
+.picture2 img{
+    overflow: hidden;
+    position: absolute;
+    top: 350px;
+    left: 995px;
+    border-radius: 30px;
+    border: 5px solid #13273e;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+
+
+
